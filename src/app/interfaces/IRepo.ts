@@ -1,5 +1,6 @@
 export interface IRepo {
   name: string;
+  description?: string;
   html_url: string;
   private: boolean;
   fork: boolean;
